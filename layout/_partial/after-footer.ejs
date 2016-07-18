@@ -19,8 +19,17 @@
 <%- js('js/main') %>
 
 
+<%if(page.editr){%>
+
+  <%- css('/editr/editr.css') %>
+  <script src="//cdn.jsdelivr.net/ace/1.1.01/min/ace.js"></script>
+  <script src="//cdn.jsdelivr.net/ace/1.1.01/min/ext-emmet.js"></script>
+  <%- js('/editr/libs/ext.emmet.js') %>
+  <%- js('/editr/editr.js') %>
+<%}%>
+
 <%- partial('google-analytics') %>
 
-<% if (theme.mathjax){ %>
+<% if (theme.mathjax || (window.page && page.mathjax)){ %>
 <%- partial('mathjax') %>
 <% } %>

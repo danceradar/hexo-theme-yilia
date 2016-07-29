@@ -21,7 +21,7 @@
       <% } %>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
-      <%- toc(post.content||page.content, {line_number: false}) %>
+      <%- toc(post.content, {line_number: false}) %>
 
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>

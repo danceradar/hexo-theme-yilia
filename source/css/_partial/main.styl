@@ -45,7 +45,7 @@
 
 		.overlay{
 			width: 100%;
-			height: 180px;
+			height: 120px;
 			background-color: black;
 			position: absolute;
 			opacity: 0.7;
@@ -54,7 +54,7 @@
 		.intrude-less {
 			width: 76%;
 			text-align: center;
-			margin: 112px auto 0;
+			margin: 52px auto 0;
 		}
 	}
 	.mid-col {
@@ -134,7 +134,7 @@
 		cursor: pointer;
 		//text-transform: uppercase;
 		float:none;
-		min-height: 150px;
+		min-height: 100px;
 		margin-left: -12px;
 		text-align: center;
 		display: -webkit-box;
@@ -179,7 +179,6 @@
 				*vertical-align:auto;
 				zoom:1;
 				*display:inline;
-				text-indent:-9999px;
 				margin:0 8px 15px 8px;
 				opacity:0.7;
 				width:28px;
@@ -188,79 +187,43 @@
 				&:hover {
 					opacity:1
 				}
+				i {
+					font-size: 16px;
+					text-align: center;
+					line-height: 28px;
+					width:28px;
+					height:28px;
+					display: block;
+					border-radius: 50%;
+					color: white;
+					&.icon-github {
+						background-color: #C1C6D4;
+					}
+					&.icon-weibo {
+						background-color: #E6162D;
+					}
+					&.icon-douban {
+						background-color: #4BD152;
+					}
+					&.icon-email {
+						background-color: #4BD152;
+					}
+					&.icon-facebook {
+						background-color: #768BB7;
+					}
+					&.icon-twitter {
+						background-color: #88DDFA;
+					}
+					&.icon-linkedin {
+						background-color: #045C89;
+					}
+					&.icon-rss {
+						background-color: #F49E64;
+					}
+				}
 			}
 			a:last-of-type {
 				margin-right:0
-			}
-			a.weibo {
-				background:url('/img/weibo.png') center no-repeat #aaaaff;
-				border:1px solid #aaaaff;
-				&:hover {
-					border:1px solid #aaaaff;
-				}
-			}
-			a.rss {
-				background:url('/img/rss.png') center no-repeat #ef7522;
-				border:1px solid #ef7522;
-				&:hover {
-					border:1px solid #cf5d0f;
-				}
-			}
-			a.github {
-				background:url('/img/github.png') center no-repeat #afb6ca;
-				border:1px solid #afb6ca;
-				&:hover {
-					border:1px solid #909ab6;
-				}
-			}
-			a.facebook {
-				background:url('/img/facebook.png') center no-repeat #3b5998;
-				border:1px solid #3b5998;
-				&:hover {
-					border:1px solid #2d4373;
-				}
-			}
-			a.google {
-				background:url('/img/google.png') center no-repeat #c83d20;
-				border:1px solid #c83d20;
-				&:hover {
-					border:1px solid #9c3019;
-				}
-			}
-			a.twitter {
-				background:url('/img/twitter.png') center no-repeat #55cff8;
-				border:1px solid #55cff8;
-				&:hover {
-					border:1px solid #24c1f6;
-				}
-			}
-			a.linkedin {
-				background:url('/img/linkedin.png') center no-repeat #005a87;
-				border:1px solid #005a87;
-				&:hover {
-					border:1px solid #006b98;
-				}
-			}
-			a.zhihu {
-				background:url('/img/zhihu.png') center no-repeat #0078d8;
-				border:1px solid #0078d8;
-				&:hover {
-					border:1px solid #0078d8;
-				}
-			}
-			a.douban {
-				background:url('/img/douban.png') center no-repeat #06c611;
-				border:1px solid #06c611;
-				&:hover {
-					border:1px solid #06c611;
-				}
-			}
-			a.mail {
-				background:url('/img/mail.png') center no-repeat #005a87;
-				border:1px solid #005a87;
-				&:hover {
-					border:1px solid #006b98;
-				}
 			}
 		}
 	}

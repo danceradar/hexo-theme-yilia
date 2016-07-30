@@ -41,7 +41,7 @@
 						</div>
 						<%}%>
 					</div>
-					
+
 				</div>
 				<div class="tips-box hide">
 					<div class="tips-arrow"></div>
@@ -72,12 +72,12 @@
 					<nav class="header-nav">
 						<div class="social">
 							<% for (var i in theme.subnav){ %>
-								<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
-					        <%}%>
+								<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="iconfont icon-<%=i%>"></i></a>
+					    <%}%>
 						</div>
 					</nav>
 				</section>
-				
+
 				<%if(theme.tagcloud){%>
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
@@ -85,7 +85,7 @@
 					</div>
 				</section>
 				<%}%>
-				
+
 				<%if(theme.friends && theme.friends.length != 0){%>
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
@@ -107,5 +107,5 @@
 				<%}%>
 			</div>
 		</div>
-	</header>				
+	</header>
 </div>

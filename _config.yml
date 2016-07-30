@@ -10,7 +10,7 @@ subnav:
   github: "https://github.com/zaaack"
   weibo: "http://weibo.com/2835064591"
   douban: "#"
-  mail: "mailto:zaaack@qq.com"
+  email: "mailto:zaaack@qq.com"
   facebook: "https://www.facebook.com/zackyoung.io"
   twitter: "https://twitter.com/ZaaackYoung"
   linkedin: "http://www.linkedin.com/in/%E7%9C%9F-%E6%9D%A8-45bb94100?trk=hp-identity-name"
@@ -43,12 +43,12 @@ favicon: /avatar.png
 #你的头像url
 avatar: /avatar.png
 #是否开启分享
-share_jia: true
-share_addthis: false
+share_jia: false
+share_addthis: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: zaaack
-disqus: zaaack
+# duoshuo: zaaack
+disqus_shortname: zaaack
 #是否开启云标签
 tagcloud: true
 
